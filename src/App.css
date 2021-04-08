@@ -1,0 +1,107 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: tahoma, arial;
+}
+.con-two {
+  margin: 200px auto;
+  width: 800px;
+  padding: 20px;
+  background-color: #eff7e1;
+}
+.course-form h3 {
+  width: 100%;
+  background-color: #f8dc81;
+  padding: 10px;
+  color: #333;
+  margin: auto;
+}
+.course-form input {
+  width: 80%;
+  border: 0;
+  padding: 11px;
+  margin: 20px auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.course-form input::placeholder {
+  font-size: 21px;
+  color: rgb(167, 163, 163);
+}
+.course-form input:focus {
+  outline: 0;
+}
+.course-form button {
+  border: 0;
+  background-color: #4f8d78;
+  padding: 10px;
+  width: 19%;
+  margin-left: 1%;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #333;
+  position: relative;
+}
+ul li .name {
+  font-size: 20px;
+}
+ul li .edit-icon {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #214151;
+}
+ul li .trash-icon {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  cursor: pointer;
+  color: #214151;
+}
+ul .massage {
+  text-align: center;
+  padding: 8px;
+  font-size: 22px;
+  color: rgb(190, 68, 92);
+}
+.update input {
+  border: 0;
+  width: 80%;
+  padding: 10px;
+  font-size: 19px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.update input:focus {
+  outline: 0;
+}
+.update button {
+  border: 0;
+  background-color: #4f8d78;
+  padding: 10px;
+  width: 19%;
+  margin-left: 1%;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 18px;
+}
